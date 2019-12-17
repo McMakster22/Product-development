@@ -1,0 +1,58 @@
+.contact{
+	/*margin: 20px 0px 10px 15px;*/
+    background-color: rgba(51, 122, 183, 0.47);
+    /*height: 600px;*/
+    border: solid 1px #00adef;
+    color: #0c4c66;
+	padding-top: 10px;
+	
+}
+ #map {
+        
+        height: 400px;
+      }
+label {
+	position: relative;
+	left:40px;
+		
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+input, textarea {
+	position: relative;
+	left:40px;
+	
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+	background:right no-repeat #efefef;
+}
+.team{
+	background-color: #d9edf7;
+}
+p.team{
+	padding-left: 10px;
+    padding-top: 20px;
+	height: 233px;
+	background-color: #0c4c66;
+	color: #d9edf7;
+	
+}
+img.team{
+	height: 300px;
+	background-color: #00adef;
+	width: 100%;
+  	top: 0;
+}
+h4.team{
+	text-align: center;
+}

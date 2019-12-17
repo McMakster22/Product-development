@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Huggeligt</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<!-- My own styles -->
+
+        <link rel="stylesheet" href="css/mycss.css" type="text/css">
+		<link rel="stylesheet" href="css/contact.css" type="text/css">
+    
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	
+	
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div class="row">
+					<div class="logo col-md-4">
+						<a href="index.html"><img src="images/Logo.png" class="logo" alt="logo"></a>
+						<h2><i>Quality, Efficiency, Safety</i></h2>
+					</div>
+					<div class="navBar col-md-8">
+						<nav class="navbar navbar-default">
+							  <div class="container-fluid">
+
+								</div>
+								<ul class="nav navbar-nav">
+								  <li><a href="index.html">Home</a></li>
+								  <li><a  href="product.html">Product</a></li>
+								  <li><a href="aboutus.html">About Us</a></li>
+								  <li class="active"><a href="contact.html">Contact</a></li>
+								</ul>
+
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class=" row">
+				<div class=" contact col-md-6 col-md-offset-3">
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> Team </a>
+									</h3>
+								</div>
+								<div id="collapse3" class="panel-collapse collapse">
+									<div class="panel-body">
+										<div class="row">
+											<div class="team col-md-6 col-sm-6">
+												<img class="team" src="images/soren.jpg" alt="Soren">
+												<h4 class="team">Søren Lassen</h4>
+												<p class="team">
+													Position: CEO of Hyggeligt ApS
+													<br/>
+													<br/>
+													Educational background: Global Business Engineer Bachelor
+												</p>
+											</div>
+											<div class="team col-md-6 col-sm-6">
+												<img class="team" src="images/mathias.jpg" alt="Mathias">
+												<h4 class="team">Mathias Bach Poulsen</h4>
+												<p class="team">
+													Position: Head of product development department at Hyggeligt ApS
+													<br/>
+													<br/>
+													Educational background: Global Business Engineer Bachelor
+												</p>
+											</div>
+											<div class="team col-md-6 col-sm-6">
+												<img class="team" src="images/christian.jpg" alt="Christian">
+												<h4 class="team">Christian Damsgaard</h4>
+												<p class="team">
+													Position: Head of innovation department at Hyggeligt ApS
+													<br/>
+													<br/>
+													Educational background: Global Business Engineer Bachelor	
+												</p>
+											</div>
+											<div class="team col-md-6 col-sm-6">
+												<img class="team" src="images/maksim.jpg" alt="Maksim">
+												<h4 class="team">Maksim Mirzinskij</h4>
+												<p class="team">
+													Position: Head of ICT and Public Relationship department at Hyggeligt ApS
+													<br/>
+													<br/>
+													Educational background: Global Business Engineer Bachelor	
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> Contact Information </a>
+									</h3>
+								</div>
+								<div id="collapse1" class="panel-collapse collapse in">
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-md-6">
+												<div id="map"></div>
+													<script>
+													function initMap() {
+													var mapDiv = document.getElementById('map');
+													var map = new google.maps.Map(mapDiv, {
+													center: {lat: 56.1540461, lng: 10.1117591},
+													zoom: 12
+													});
+													}
+													</script>
+												<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+												async defer></script>
+											</div>
+											<div class="col-md-6">
+												
+													<h1>HYGGELIGT ApS</h1>
+													<hr>
+													<p>Headquarters Industrivej 28, Stilling 8660 Skanderborg Denmark</p>
+													<br>
+													<p>
+													T1:  <u>+45 66 99 66 00</u>
+													<br>
+													T2:  <u>+45 69 69 69 11</u>
+													<br>
+													F: +45 11 23 58 13
+													<br>
+													CVR: 1111 9999
+													<br>
+													<a href="mailto:hyggeligt@corp.dk">
+													hyggeligt@corp.dk</a>	
+													</p>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" >
+									<h3 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> Order </a>
+									</h3>
+								</div>
+								<div id="collapse2" class="panel-collapse collapse in">
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-md-6" id="order">
+												<h1>ORDER NOW</h1>
+												<hr>
+												<p> If you would like to purchase our product please fill in this form. State you real credentials:Full Name: (ex: John Wick), Address: (ex: Søndergade 5 Aarhus), Post: (ex:8260). 
+												</p>
+												<br>
+												<p>
+												In the field <q>Amount of Devices</q> choose the amount of devices you would like to require. In the message field, you can leave your comments or a message that you would like us to consider</p> 
+												<br>
+												<p>When you will fill in all the fields and press the <q>Submit</q> button. We will receive your application and will get back to you, as soon as posible.</p>
+											</div>
+											<div class="col-md-6">
+												<form method="post" action="index.php">
+													<label>Full Name:</label>
+													<input name="name" placeholder="Type Here" required>
+													<br>
+													<label>Address:</label>
+													<input name="address" placeholder="Type Here" required>
+													<label>POST:</label>
+													<input name="post" type="number" placeholder="Type Here" size="8" required>
+													<br>
+													<br>
+													<label>Email</label>
+													<input name="email" type="email" placeholder="Type Here" required>
+													<br>
+													<label>Amount of Devices:</label>
+													<input name="productNm" type="number" placeholder="Type Here" min="1" required>
+													<br>
+													<label>Message</label>
+													<textarea name="message" placeholder="Type Here"></textarea>
+													<br>
+													<input id="submit" name="submit" type="submit" value="Submit">
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+				</div>
+				<div class="col-md-6"></div>
+			</div>
+			<div class="topHead row">
+				<div class="col-sm-12 col-xs-12">
+					<a href="#header"><button type="button" class="btn btn-primary btn-block">TOP</button></a>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<h4>Hyggeligt A/S | Address: Industrivej 28, Stilling 8660 Skanderborg | +45 66 99 66 00 |<a class="footer" href="mailto:hyggeligt@corp.dk">hyggeligt@corp.dk</a></h4>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+.product{
+	height: 600px;
+	background-color: white;
+	border:solid 1px #00adef;
+	color: #0c4c66; 
+	margin:20px 0px 10px 15px;
+	padding-top: 40px;
+}
+.description{
+	float: right;
+	height: 600px;
+	background-color: rgba(217, 237, 247, 0.52);
+	margin:20px 15px 10px 0px;
+	border:solid 1px #00adef;
+}
+h1.description{
+	text-align: right;
+}
+
+.inner{
+	object-fit:fill;
+	padding-top: 10px;
+	min-height: 598px;
+	background-image: url(../images/finalDesign3.jpg);
+	 background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0;
+	width: 100%;
+  	position: absolute;
+  	top: 0;
+}
+.defenitionOn{
+	padding-top: 40px;
+}
+.defenitionOff{
+	display: none;
+}
+img.defenitionImg{
+	float: right;
+	height: 200px;
+	width: 200px;
+	margin-left: 10px;
+}
+@media (max-width: 677px){
+	img.defenitionImg{
+	display: none;
+}
+.description{
+	height: 900px;
+}
+
+

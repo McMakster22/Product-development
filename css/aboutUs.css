@@ -1,0 +1,48 @@
+.main{
+	height: auto;
+}
+
+.side{
+	height:198px;
+    width: 150px;
+	margin-left: 75px;
+}
+.btn-primary {
+	background-color: #31708F;
+	margin-bottom: 5px;
+}
+.btn-default {
+	margin-bottom: 5px;
+	color: #286090;
+    border-color: #337ab7;
+}
+img.about{
+	float: right;
+	height: 230px;
+	max-width: 200px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+img.aboutL{
+	float: left;
+	height: 200px;
+	max-width: 200px;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+#final{
+	margin-top: 40px;
+}
+
+@media (max-width: 677px){
+	img.about{
+	margin: 20px auto;	
+	display: block;
+	float: none;	
+}
+	img.aboutL{
+	margin: 20px auto;	
+	display: block;
+	float: none;	
+}
+}
